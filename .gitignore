@@ -1,0 +1,53 @@
+# Dependências de pacotes
+/node_modules/
+
+# Diretórios de build
+/build/
+/dist/
+/out/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de configuração de IDEs e editores
+.idea/
+.vscode/
+
+# Arquivos de cache do npm
+/.npm/
+
+# Arquivos de cache do Yarn
+/.yarn-cache/
+/.yarn-integrity
+
+# Ambiente de desenvolvimento local (se houver)
+.env
+.env.local
+.env.*.local
+
+# Arquivos de teste
+coverage/
+
+# Arquivos do editor de código (VSCode, etc)
+*.code-workspace
+
+# Arquivos temporários e de backup
+*~
+*.bak
+*.swp
+
+# Para projetos React:
+# Arquivos gerados pelo Create React App
+/.cache/
+/build/
+
+# Para projetos Fastify:
+# Arquivos de log do Fastify
+logs/
+*.log
